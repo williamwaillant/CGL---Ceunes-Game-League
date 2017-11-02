@@ -15,7 +15,7 @@
 <!-- Head -->
 <head>
 
-<title>JUSE</title>
+<title>C.G.L</title>
 
 <!-- Meta-Tags -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -94,8 +94,9 @@ function formatar(mascara, documento){
 
 				<div id="navbar" class="navbar-collapse navbar-right collapse">
 					<ul class="nav navbar-nav navbar-right cross-effect" id="cross-effect">
-						<li><a class="scroll" href="#w3lsaboutaits">Sobre</a></li>
 						<li><a class="scroll" href="#agileinfoplatforms">PLATAFORMAS</a></li>
+						<li><a class="scroll" href="#w3lsaboutaits">Sobre</a></li>
+						<li><a class="scroll" href="#w3portfolioaits">INFORMAÇÕES</a></li>
 						<li><a class="scroll" href="#wthreetabsaits">INSCRIÇÃO</a></li>
 						<li><a class="scroll" href="#agilecontactw3ls">CONTATO</a></li>
 					</ul>
@@ -109,7 +110,7 @@ function formatar(mascara, documento){
 		<div class="slider">
 			<ul class="rslides" id="slider">
 				<li class="first-slide w3ls">
-					<img src="images/slide-1.png" alt="Game Robo">
+					<img src="images/slide-1.jpg" alt="Game Robo">
 				</li>
 				<li class="second-slide aits">
 					<img src="images/slide-2.jpg" alt="Game Robo">
@@ -646,11 +647,9 @@ function formatar(mascara, documento){
 				<div class="col-md-6 agilefooterwthreebottom-grid agilefooterwthreebottom-grid2">
 					<div class="agilesocialwthree">
 						<ul class="social-icons">
-							<li><a href="#" class="facebook w3ls" title="Go to Our Facebook Page"><i class="fa w3ls fa-facebook-square" aria-hidden="true"></i></a></li>
-							<li><a href="#" class="twitter w3l" title="Go to Our Twitter Account"><i class="fa w3l fa-twitter-square" aria-hidden="true"></i></a></li>
-							<li><a href="#" class="googleplus w3" title="Go to Our Google Plus Account"><i class="fa w3 fa-google-plus-square" aria-hidden="true"></i></a></li>
-							<li><a href="#" class="instagram wthree" title="Go to Our Instagram Account"><i class="fa wthree fa-instagram" aria-hidden="true"></i></a></li>
-							<li><a href="#" class="youtube w3layouts" title="Go to Our Youtube Channel"><i class="fa w3layouts fa-youtube-square" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/ceunesgameleague/" class="facebook w3ls" title="Go to Our Facebook Page"><i class="fa w3ls fa-facebook-square" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/ceunesgameleague/" class="instagram wthree" title="Go to Our Instagram Account"><i class="fa wthree fa-instagram" aria-hidden="true"></i></a></li>
+							<!-- <li><a href="#" class="youtube w3layouts" title="Go to Our Youtube Channel"><i class="fa w3layouts fa-youtube-square" aria-hidden="true"></i></a></li> -->
 						</ul>
 					</div>
 				</div>

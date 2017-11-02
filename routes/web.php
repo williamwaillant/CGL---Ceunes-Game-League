@@ -17,8 +17,13 @@ Route::get('/', ['as'=>'index', 'uses' => 'formcontroller@index']);
 Route::get('/', function () {
     return view('index');
 });
-
+Route::group(['middleware'=>'web'],function(){
 Auth::routes();
-Route::post('/home/update/{id}',['as'=>'admin.update', 'uses' => 'HomeController@tes']);
+Route::get('/home/delete/{id}',['as'=>'home.delete', 'uses' => 'HomeController@destroy']);
+Route::post('/home/{id}',['as'=>'alterar', 'uses' => 'HomeController@alterarpag']);
+Route::get('/home/edit/{id}',['as'=>'admin.edit', 'uses' => 'HomeController@edit']);
+Route::post('/home/update/{id}',['as'=>'admin.update', 'uses' => 'HomeController@update']);
 Route::get('/home', 'HomeController@index')->name('home');
+Route::post('/filtro',['as'=>'admin.filtrar', 'uses' => 'HomeController@filtrar']);
+});
 
